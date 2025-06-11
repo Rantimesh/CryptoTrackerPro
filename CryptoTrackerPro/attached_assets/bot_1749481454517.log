@@ -1,0 +1,264 @@
+# Log file will be created automatically when the bot runs
+2025-06-09 14:44:49,106 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:44:49,154 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:46:29,026 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:46:29,027 - __main__ - INFO - Running initial scan...
+2025-06-09 14:46:29,027 - __main__ - INFO - Starting token scan...
+2025-06-09 14:46:29,027 - __main__ - INFO - Scanning 4 Pump.fun endpoints...
+2025-06-09 14:46:29,027 - __main__ - INFO - Fetching from Pump.fun: https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:46:29,186 - __main__ - ERROR - Pump.fun API error 503 for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC: <!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Offline for Maintenance</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/maintenance-mode.html"></iframe>
+	  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d16b2fdd1cbcec',t:'MTc0OTQ4MDM4OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+	</html>
+2025-06-09 14:46:31,187 - __main__ - INFO - Fetching from Pump.fun: https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:46:31,270 - __main__ - ERROR - Pump.fun API error 503 for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC: <!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Offline for Maintenance</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/maintenance-mode.html"></iframe>
+	  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d16b3cfacebcec',t:'MTc0OTQ4MDM5MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+	</html>
+2025-06-09 14:46:33,270 - __main__ - INFO - Fetching from Pump.fun: https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 14:46:33,352 - __main__ - ERROR - Pump.fun API error 503 for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC: <!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Offline for Maintenance</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/maintenance-mode.html"></iframe>
+	  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d16b49f988bcec',t:'MTc0OTQ4MDM5My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+	</html>
+2025-06-09 14:46:35,352 - __main__ - INFO - Fetching from Pump.fun: https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 14:46:35,436 - __main__ - ERROR - Pump.fun API error 503 for https://frontend-api.pump.fun/coins/king-of-the-hill: <!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Offline for Maintenance</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/maintenance-mode.html"></iframe>
+	  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d16b570f2ebcec',t:'MTc0OTQ4MDM5NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+	</html>
+2025-06-09 14:46:37,437 - __main__ - INFO - Found 0 unique tokens from Pump.fun
+2025-06-09 14:46:37,437 - __main__ - INFO - No tokens found
+2025-06-09 14:46:37,437 - __main__ - INFO - Bot started. Scanning every 3 minutes...
+2025-06-09 14:47:32,830 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:47:32,831 - __main__ - INFO - Running initial scan...
+2025-06-09 14:47:32,831 - __main__ - INFO - Starting token scan...
+2025-06-09 14:47:32,831 - __main__ - INFO - Scanning 6 Pump.fun endpoints...
+2025-06-09 14:47:32,831 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://pump.fun/api/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:47:32,993 - __main__ - ERROR - Pump.fun API error 404 for https://pump.fun/api/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:47:34,993 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://pump.fun/api/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:47:35,098 - __main__ - ERROR - Pump.fun API error 404 for https://pump.fun/api/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:47:37,098 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:47:37,285 - __main__ - ERROR - Pump.fun API error 404 for https://api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:47:39,285 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:47:39,337 - __main__ - ERROR - Pump.fun API error 404 for https://api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:47:41,337 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:47:41,492 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 10 seconds...
+2025-06-09 14:47:51,492 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:47:51,578 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 20 seconds...
+2025-06-09 14:48:11,578 - __main__ - INFO - Fetching from Pump.fun (attempt 3): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:11,686 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 30 seconds...
+2025-06-09 14:48:13,687 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:13,795 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 10 seconds...
+2025-06-09 14:48:23,795 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:23,888 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 20 seconds...
+2025-06-09 14:48:30,311 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:48:30,312 - __main__ - INFO - Running initial scan...
+2025-06-09 14:48:30,312 - __main__ - INFO - Starting token scan...
+2025-06-09 14:48:30,312 - __main__ - INFO - Scanning 6 Pump.fun endpoints...
+2025-06-09 14:48:30,312 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://pump.fun/api/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:30,481 - __main__ - ERROR - Pump.fun API error 404 for https://pump.fun/api/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:30,516 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:48:30,516 - __main__ - INFO - Running initial scan...
+2025-06-09 14:48:30,516 - __main__ - INFO - Starting token scan...
+2025-06-09 14:48:30,517 - __main__ - INFO - Scanning 6 Pump.fun endpoints...
+2025-06-09 14:48:30,517 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://pump.fun/api/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:30,694 - __main__ - ERROR - Pump.fun API error 404 for https://pump.fun/api/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:32,484 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://pump.fun/api/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:32,595 - __main__ - ERROR - Pump.fun API error 404 for https://pump.fun/api/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:32,695 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://pump.fun/api/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:32,807 - __main__ - ERROR - Pump.fun API error 404 for https://pump.fun/api/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:34,597 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:34,733 - __main__ - ERROR - Pump.fun API error 404 for https://api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:34,808 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:34,958 - __main__ - ERROR - Pump.fun API error 404 for https://api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:36,733 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:36,801 - __main__ - ERROR - Pump.fun API error 404 for https://api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:36,958 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:37,047 - __main__ - ERROR - Pump.fun API error 404 for https://api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:48:38,801 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:38,929 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 10 seconds...
+2025-06-09 14:48:39,047 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:39,222 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 10 seconds...
+2025-06-09 14:48:48,929 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:49,008 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 20 seconds...
+2025-06-09 14:48:49,222 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:48:49,367 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 20 seconds...
+2025-06-09 14:49:09,011 - __main__ - INFO - Fetching from Pump.fun (attempt 3): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:49:09,101 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 30 seconds...
+2025-06-09 14:49:09,369 - __main__ - INFO - Fetching from Pump.fun (attempt 3): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:49:09,464 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 30 seconds...
+2025-06-09 14:49:11,102 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:49:11,180 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 10 seconds...
+2025-06-09 14:49:11,464 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:49:11,543 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 10 seconds...
+2025-06-09 14:49:21,180 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:49:21,259 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 20 seconds...
+2025-06-09 14:49:21,544 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:49:21,641 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 20 seconds...
+2025-06-09 14:49:41,259 - __main__ - INFO - Fetching from Pump.fun (attempt 3): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:49:41,364 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 30 seconds...
+2025-06-09 14:49:41,642 - __main__ - INFO - Fetching from Pump.fun (attempt 3): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:49:41,742 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 30 seconds...
+2025-06-09 14:49:43,365 - __main__ - INFO - No tokens from Pump.fun API, trying alternative sources...
+2025-06-09 14:49:43,365 - __main__ - INFO - Trying alternative source: https://api.dexscreener.com/latest/dex/search/?q=pump.fun
+2025-06-09 14:49:43,475 - __main__ - INFO - Found 5 potential tokens from https://api.dexscreener.com/latest/dex/search/?q=pump.fun
+2025-06-09 14:49:43,475 - __main__ - INFO - Found 5 unique tokens from all sources
+2025-06-09 14:49:43,475 - __main__ - INFO - Found 0 new qualifying tokens
+2025-06-09 14:49:43,475 - __main__ - INFO - Bot started. Scanning every 3 minutes...
+2025-06-09 14:49:43,742 - __main__ - INFO - No tokens from Pump.fun API, trying alternative sources...
+2025-06-09 14:49:43,743 - __main__ - INFO - Trying alternative source: https://api.dexscreener.com/latest/dex/search/?q=pump.fun
+2025-06-09 14:49:43,802 - __main__ - INFO - Found 5 potential tokens from https://api.dexscreener.com/latest/dex/search/?q=pump.fun
+2025-06-09 14:49:43,802 - __main__ - INFO - Found 5 unique tokens from all sources
+2025-06-09 14:49:43,803 - __main__ - INFO - Found 0 new qualifying tokens
+2025-06-09 14:49:43,803 - __main__ - INFO - Bot started. Scanning every 3 minutes...
+2025-06-09 14:50:21,189 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:50:21,190 - __main__ - INFO - Running initial scan...
+2025-06-09 14:50:21,190 - __main__ - INFO - Starting token scan...
+2025-06-09 14:50:21,190 - __main__ - INFO - Scanning for new Solana tokens...
+2025-06-09 14:50:21,190 - __main__ - INFO - Fetching from working source: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 14:50:21,285 - __main__ - INFO - Got 0 tokens from https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 14:50:22,285 - __main__ - INFO - Fetching from working source: https://api.dexscreener.com/latest/dex/pairs/solana/trending
+2025-06-09 14:50:22,372 - __main__ - ERROR - Error processing data from https://api.dexscreener.com/latest/dex/pairs/solana/trending: 'NoneType' object is not subscriptable
+2025-06-09 14:50:22,372 - __main__ - INFO - Got 0 tokens from https://api.dexscreener.com/latest/dex/pairs/solana/trending
+2025-06-09 14:50:23,373 - __main__ - INFO - Fetching from working source: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&category=solana-ecosystem&order=market_cap_desc&per_page=100&page=1
+2025-06-09 14:50:23,768 - __main__ - INFO - Got 0 tokens from https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&category=solana-ecosystem&order=market_cap_desc&per_page=100&page=1
+2025-06-09 14:50:24,768 - __main__ - INFO - Fetching from working source: https://api.jupiter.ag/tokens/solana
+2025-06-09 14:50:24,798 - __main__ - ERROR - Error fetching from https://api.jupiter.ag/tokens/solana: HTTPSConnectionPool(host='api.jupiter.ag', port=443): Max retries exceeded with url: /tokens/solana (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f28d1a9ccd0>: Failed to resolve 'api.jupiter.ag' ([Errno -2] Name or service not known)"))
+2025-06-09 14:50:24,799 - __main__ - INFO - Found 0 unique tokens from working sources
+2025-06-09 14:50:24,799 - __main__ - INFO - No tokens found
+2025-06-09 14:50:24,799 - __main__ - INFO - Bot started. Scanning every 3 minutes...
+2025-06-09 14:51:34,985 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:51:34,985 - __main__ - INFO - Running initial scan...
+2025-06-09 14:51:34,985 - __main__ - INFO - Starting token scan...
+2025-06-09 14:51:34,985 - __main__ - INFO - Scanning Pump.fun endpoints...
+2025-06-09 14:51:34,986 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:35,154 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 10 seconds...
+2025-06-09 14:51:43,803 - __main__ - INFO - Starting token scan...
+2025-06-09 14:51:43,803 - __main__ - INFO - Scanning 6 Pump.fun endpoints...
+2025-06-09 14:51:43,804 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://pump.fun/api/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:43,931 - __main__ - ERROR - Pump.fun API error 404 for https://pump.fun/api/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:45,154 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:45,245 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 20 seconds...
+2025-06-09 14:51:45,931 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://pump.fun/api/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:51:46,032 - __main__ - ERROR - Pump.fun API error 404 for https://pump.fun/api/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:51:48,032 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:48,160 - __main__ - ERROR - Pump.fun API error 404 for https://api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:50,160 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:51:50,206 - __main__ - ERROR - Pump.fun API error 404 for https://api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:51:52,207 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:52,313 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 10 seconds...
+2025-06-09 14:51:59,472 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:51:59,472 - __main__ - INFO - Running initial scan...
+2025-06-09 14:51:59,473 - __main__ - INFO - Starting token scan...
+2025-06-09 14:51:59,473 - __main__ - INFO - Scanning Pump.fun endpoints...
+2025-06-09 14:51:59,473 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:59,592 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 10 seconds...
+2025-06-09 14:51:59,645 - __main__ - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 14:51:59,646 - __main__ - INFO - Running initial scan...
+2025-06-09 14:51:59,646 - __main__ - INFO - Starting token scan...
+2025-06-09 14:51:59,646 - __main__ - INFO - Scanning Pump.fun endpoints...
+2025-06-09 14:51:59,646 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:51:59,755 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 10 seconds...
+2025-06-09 14:52:09,593 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:52:09,681 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 20 seconds...
+2025-06-09 14:52:09,756 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:52:09,837 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 20 seconds...
+2025-06-09 14:52:29,681 - __main__ - INFO - Fetching from Pump.fun (attempt 3): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:52:29,802 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 30 seconds...
+2025-06-09 14:52:29,838 - __main__ - INFO - Fetching from Pump.fun (attempt 3): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 14:52:29,916 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, retrying in 30 seconds...
+2025-06-09 14:52:31,803 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:52:31,897 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 10 seconds...
+2025-06-09 14:52:31,916 - __main__ - INFO - Fetching from Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:52:31,991 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 10 seconds...
+2025-06-09 14:52:41,898 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:52:41,984 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 20 seconds...
+2025-06-09 14:52:41,991 - __main__ - INFO - Fetching from Pump.fun (attempt 2): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 14:52:42,068 - __main__ - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, retrying in 20 seconds...

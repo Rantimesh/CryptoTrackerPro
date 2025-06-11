@@ -1,0 +1,601 @@
+2025-06-09 15:17:58,432 - utils - INFO - Logging initialized. Log file: logs/bot_20250609_151758.log
+2025-06-09 15:17:58,432 - utils - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-09 15:17:58,432 - utils - INFO - Configuration: {'min_market_cap': 10000, 'max_market_cap': 1000000, 'min_age_seconds': 1, 'max_age_seconds': 86400, 'min_liquidity': 500, 'scan_interval_minutes': 1, 'max_tokens_per_scan': 50, 'duplicate_check_hours': 6, 'max_retries': 3, 'request_timeout': 30, 'rate_limit_delay': 1.0}
+2025-06-09 15:17:58,433 - utils - INFO - Running initial scan...
+2025-06-09 15:17:58,433 - utils - INFO - Starting token scan...
+2025-06-09 15:17:58,433 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:17:58,433 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:17:58,433 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:17:58,528 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:17:59,528 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:17:59,578 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:18:00,579 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:18:00,650 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:18:01,651 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:18:03,512 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:18:04,512 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:18:04,563 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:18:05,564 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:18:05,620 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:18:06,620 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:18:06,620 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:18:06,620 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:18:06,620 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:18:06,770 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:18:07,771 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:18:07,861 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:18:08,862 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:18:08,957 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:18:09,957 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:18:10,050 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:18:11,050 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:18:11,051 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:18:11,051 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:18:11,051 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:18:11,051 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:18:14,418 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:18:14,418 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:18:14,419 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:18:14,419 - utils - INFO - No tokens found
+2025-06-09 15:18:14,420 - utils - INFO - Starting scheduler thread...
+2025-06-09 15:18:14,420 - utils - INFO - Bot started. Scanning every 1 minutes...
+2025-06-09 15:18:59,426 - utils - INFO - Starting token scan...
+2025-06-09 15:18:59,426 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:18:59,426 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:18:59,426 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:18:59,515 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:19:00,515 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:19:00,575 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:19:01,576 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:19:01,683 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:19:02,683 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:19:02,803 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:19:03,804 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:19:03,911 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:19:04,911 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:19:04,943 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:19:05,944 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:19:05,944 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:19:05,944 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:19:05,944 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:19:06,084 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:19:07,084 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:19:07,174 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:19:08,174 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:19:08,261 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:19:09,262 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:19:09,351 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:19:10,352 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:19:10,352 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:19:10,352 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:19:10,352 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:19:10,352 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:19:14,042 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:19:14,042 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:19:14,042 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:19:14,042 - utils - INFO - No tokens found
+2025-06-09 15:20:14,054 - utils - INFO - Starting token scan...
+2025-06-09 15:20:14,055 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:20:14,055 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:20:14,055 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:20:14,146 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:20:15,146 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:20:15,205 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:20:16,205 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:20:16,269 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:20:17,270 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:20:17,787 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:20:18,788 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:20:18,864 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:20:19,865 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:20:19,901 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:20:20,902 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:20:20,902 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:20:20,902 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:20:20,902 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:20:21,038 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:20:22,039 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:20:22,143 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:20:23,143 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:20:23,244 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:20:24,244 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:20:24,336 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:20:25,336 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:20:25,337 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:20:25,337 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:20:25,337 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:20:25,338 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:20:28,677 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:20:28,677 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:20:28,678 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:20:28,678 - utils - INFO - No tokens found
+2025-06-09 15:21:28,685 - utils - INFO - Starting token scan...
+2025-06-09 15:21:28,685 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:21:28,685 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:21:28,685 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:21:28,805 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:21:29,805 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:21:29,871 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:21:30,872 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:21:30,919 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:21:31,919 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:21:34,079 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:21:35,079 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:21:35,147 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:21:36,148 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:21:36,188 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:21:37,188 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:21:37,188 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:21:37,188 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:21:37,189 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:21:37,338 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:21:38,338 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:21:38,429 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:21:39,429 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:21:39,519 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:21:40,520 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:21:40,610 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:21:41,611 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:21:41,611 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:21:41,611 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:21:41,611 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:21:41,611 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:21:44,955 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:21:44,955 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:21:44,956 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:21:44,956 - utils - INFO - No tokens found
+2025-06-09 15:22:44,971 - utils - INFO - Starting token scan...
+2025-06-09 15:22:44,971 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:22:44,971 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:22:44,972 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:22:45,110 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:22:46,110 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:22:46,187 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:22:47,187 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:22:47,217 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:22:48,218 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:22:48,274 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:22:49,275 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:22:49,331 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:22:50,331 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:22:50,360 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:22:51,360 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:22:51,360 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:22:51,360 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:22:51,360 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:22:51,492 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:22:52,493 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:22:52,580 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:22:53,580 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:22:53,669 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:22:54,670 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:22:54,765 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:22:55,765 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:22:55,765 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:22:55,765 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:22:55,766 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:22:55,766 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:22:59,122 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:22:59,122 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:22:59,122 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:22:59,122 - utils - INFO - No tokens found
+2025-06-09 15:23:59,141 - utils - INFO - Starting token scan...
+2025-06-09 15:23:59,141 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:23:59,142 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:23:59,142 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:24:01,405 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:24:02,406 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:24:02,467 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:24:03,467 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:24:03,556 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:24:04,557 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:24:04,617 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:24:05,617 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:24:05,686 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:24:06,686 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:24:06,724 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:24:07,725 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:24:07,725 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:24:07,725 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:24:07,725 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:24:07,875 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:24:08,876 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:24:08,979 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:24:09,980 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:24:10,081 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:24:11,082 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:24:11,176 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:24:12,177 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:24:12,177 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:24:12,177 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:24:12,177 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:24:12,177 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:24:15,567 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:24:15,568 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:24:15,568 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:24:15,568 - utils - INFO - No tokens found
+2025-06-09 15:25:15,579 - utils - INFO - Starting token scan...
+2025-06-09 15:25:15,580 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:25:15,580 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:25:15,580 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:25:17,627 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:25:18,628 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:25:18,684 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:25:19,684 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:25:19,765 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:25:20,765 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:25:20,821 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:25:21,821 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:25:21,884 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:25:22,884 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:25:22,919 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:25:23,921 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:25:23,921 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:25:23,921 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:25:23,921 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:25:24,064 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:25:25,064 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:25:25,161 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:25:26,161 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:25:26,251 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:25:27,251 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:25:27,342 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:25:28,342 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:25:28,343 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:25:28,343 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:25:28,343 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:25:28,343 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:25:31,649 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:25:31,649 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:25:31,649 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:25:31,649 - utils - INFO - No tokens found
+2025-06-09 15:26:31,660 - utils - INFO - Starting token scan...
+2025-06-09 15:26:31,661 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:26:31,661 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:26:31,661 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:26:31,768 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:26:32,768 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:26:32,829 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:26:33,829 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:26:33,872 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:26:34,872 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:26:36,960 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:26:37,960 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:26:38,015 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:26:39,015 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:26:39,074 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:26:40,074 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:26:40,074 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:26:40,074 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:26:40,074 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:26:40,262 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:26:41,263 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:26:41,358 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:26:42,359 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:26:42,454 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:26:43,455 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:26:43,544 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:26:44,544 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:26:44,545 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:26:44,545 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:26:44,545 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:26:44,545 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:26:47,940 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:26:47,941 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:26:47,941 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:26:47,941 - utils - INFO - No tokens found
+2025-06-09 15:27:47,949 - utils - INFO - Starting token scan...
+2025-06-09 15:27:47,950 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:27:47,950 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:27:47,950 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:27:48,063 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:27:49,064 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:27:49,119 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:27:50,119 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:27:50,168 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:27:51,171 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:27:51,239 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:27:52,240 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:27:52,306 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:27:53,307 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:27:53,378 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:27:54,378 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:27:54,379 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:27:54,379 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:27:54,380 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:27:54,511 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:27:55,511 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:27:55,603 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:27:56,603 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:27:56,695 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:27:57,695 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:27:57,785 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:27:58,785 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:27:58,786 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:27:58,786 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:27:58,786 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:27:58,786 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:28:02,117 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:28:02,117 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:28:02,117 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:28:02,117 - utils - INFO - No tokens found
+2025-06-09 15:29:02,127 - utils - INFO - Starting token scan...
+2025-06-09 15:29:02,128 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:29:02,128 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:29:02,128 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:29:02,214 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:29:03,214 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:29:03,275 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:29:04,277 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:29:08,766 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:29:09,766 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:29:11,745 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:29:12,746 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:29:12,813 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:29:13,814 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:29:13,852 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:29:14,852 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:29:14,853 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:29:14,853 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:29:14,853 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:29:14,979 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:29:15,979 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:29:16,073 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:29:17,073 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:29:17,166 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:29:18,166 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:29:18,254 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:29:19,255 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:29:19,255 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:29:19,255 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:29:19,255 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:29:19,255 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:29:22,568 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:29:22,569 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:29:22,569 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:29:22,569 - utils - INFO - No tokens found
+2025-06-09 15:30:22,576 - utils - INFO - Starting token scan...
+2025-06-09 15:30:22,577 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:30:22,577 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:30:22,577 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:30:22,664 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:30:23,665 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:30:23,743 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:30:24,744 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:30:24,817 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:30:25,818 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:30:28,037 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:30:29,038 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:30:29,115 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:30:30,116 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:30:30,163 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:30:31,163 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:30:31,164 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:30:31,164 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:30:31,164 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:30:31,329 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:30:32,329 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:30:32,429 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:30:33,429 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:30:33,516 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:30:34,517 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:30:34,617 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:30:35,617 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:30:35,618 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:30:35,618 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:30:35,618 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:30:35,618 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:30:38,945 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:30:38,946 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:30:38,946 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:30:38,946 - utils - INFO - No tokens found
+2025-06-09 15:31:38,956 - utils - INFO - Starting token scan...
+2025-06-09 15:31:38,957 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:31:38,957 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:31:38,957 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:31:39,068 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:31:40,069 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:31:40,125 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:31:41,126 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:31:41,159 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:31:42,159 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:31:44,779 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:31:45,779 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:31:45,840 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:31:46,840 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:31:46,884 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:31:47,884 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:31:47,884 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:31:47,884 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:31:47,884 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:31:48,015 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:31:49,015 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:31:49,108 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:31:50,108 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:31:50,201 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:31:51,202 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:31:51,287 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:31:52,287 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:31:52,288 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:31:52,288 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:31:52,288 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:31:52,288 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:31:55,673 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:31:55,674 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:31:55,674 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:31:55,674 - utils - INFO - No tokens found
+2025-06-09 15:32:55,681 - utils - INFO - Starting token scan...
+2025-06-09 15:32:55,681 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:32:55,681 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:32:55,682 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:32:55,787 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:32:56,787 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:32:56,852 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:32:57,852 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:32:57,915 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:32:58,916 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:32:59,058 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:33:00,058 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:33:00,179 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:33:01,180 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:33:01,234 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:33:02,234 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:33:02,235 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:33:02,235 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:33:02,235 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:33:02,381 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:33:03,382 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:33:03,502 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:33:04,503 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:33:04,613 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:33:05,614 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:33:05,710 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:33:06,711 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:33:06,711 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:33:06,711 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:33:06,711 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:33:06,711 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:33:10,075 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:33:10,075 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:33:10,076 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:33:10,076 - utils - INFO - No tokens found
+2025-06-09 15:34:10,085 - utils - INFO - Starting token scan...
+2025-06-09 15:34:10,085 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:34:10,085 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:34:10,085 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:34:10,210 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:34:11,210 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:34:11,507 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:34:12,508 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:34:12,545 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:34:13,545 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:34:14,085 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:34:15,086 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:34:15,142 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:34:16,143 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:34:16,183 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:34:17,184 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:34:17,184 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:34:17,184 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:34:17,184 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:34:17,330 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:34:18,330 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:34:18,437 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:34:19,437 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:34:19,530 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:34:20,530 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:34:20,624 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:34:21,624 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:34:21,624 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:34:21,624 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:34:21,624 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:34:21,625 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:34:24,936 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:34:24,936 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:34:24,937 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:34:24,937 - utils - INFO - No tokens found
+2025-06-09 15:35:24,944 - utils - INFO - Starting token scan...
+2025-06-09 15:35:24,944 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:35:24,945 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:35:24,945 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:35:25,035 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:35:26,036 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:35:26,132 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:35:27,132 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:35:27,162 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:35:28,162 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:35:30,736 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:35:31,737 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:35:31,799 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:35:32,800 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:35:32,881 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:35:33,881 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:35:33,882 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:35:33,882 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:35:33,882 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:35:34,003 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:35:35,003 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:35:35,098 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:35:36,098 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:35:36,241 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:35:37,241 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:35:37,353 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:35:38,353 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:35:38,354 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:35:38,354 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:35:38,354 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:35:38,354 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:35:41,663 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:35:41,663 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:35:41,664 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:35:41,664 - utils - INFO - No tokens found
+2025-06-09 15:36:41,671 - utils - INFO - Starting token scan...
+2025-06-09 15:36:41,672 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:36:41,672 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:36:41,672 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:36:41,771 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:36:42,772 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:36:42,836 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:36:43,836 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:36:43,877 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:36:44,878 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:36:45,365 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:36:46,366 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:36:46,437 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:36:47,438 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:36:47,478 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:36:48,478 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:36:48,478 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:36:48,478 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:36:48,478 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:36:48,620 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:36:49,620 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:36:49,708 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:36:50,708 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:36:50,803 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:36:51,803 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:36:51,895 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:36:52,896 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:36:52,896 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:36:52,896 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:36:52,896 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:36:52,896 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:36:56,246 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:36:56,246 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:36:56,246 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:36:56,246 - utils - INFO - No tokens found
+2025-06-09 15:37:56,265 - utils - INFO - Starting token scan...
+2025-06-09 15:37:56,265 - token_scanner - INFO - Starting comprehensive token scan...
+2025-06-09 15:37:56,266 - token_scanner - INFO - Scanning DexScreener endpoints...
+2025-06-09 15:37:56,266 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=raydium
+2025-06-09 15:37:56,378 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:37:57,378 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=solana
+2025-06-09 15:37:57,450 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:37:58,452 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-boosts/latest/v1
+2025-06-09 15:37:58,487 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:37:59,487 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/search/?q=new
+2025-06-09 15:38:00,236 - token_scanner - INFO - Successfully fetched 2 tokens from DexScreener
+2025-06-09 15:38:01,237 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/latest/dex/tokens/solana
+2025-06-09 15:38:01,293 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:38:02,294 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-09 15:38:02,348 - token_scanner - INFO - Successfully fetched 0 tokens from DexScreener
+2025-06-09 15:38:03,348 - token_scanner - INFO - Found 2 tokens from DexScreener (1 successful endpoints)
+2025-06-09 15:38:03,349 - token_scanner - INFO - DexScreener found 2 tokens
+2025-06-09 15:38:03,349 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-09 15:38:03,349 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-09 15:38:03,491 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:38:04,492 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-09 15:38:04,582 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-09 15:38:05,582 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-09 15:38:05,686 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-09 15:38:06,687 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-09 15:38:06,786 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-09 15:38:07,786 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-09 15:38:07,787 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-09 15:38:07,787 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-09 15:38:07,787 - token_scanner - INFO - Low token count, trying fallback endpoints...
+2025-06-09 15:38:07,787 - token_scanner - INFO - Scanning fallback endpoints...
+2025-06-09 15:38:11,161 - token_scanner - INFO - Found 0 tokens from fallback endpoints
+2025-06-09 15:38:11,161 - token_scanner - INFO - Fallback endpoints found 0 tokens
+2025-06-09 15:38:11,161 - token_scanner - INFO - Scan summary - Total: 2, Unique: 2, Filtered: 0
+2025-06-09 15:38:11,161 - utils - INFO - No tokens found
