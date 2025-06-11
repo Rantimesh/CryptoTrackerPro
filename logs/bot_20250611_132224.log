@@ -1,0 +1,94 @@
+2025-06-11 13:22:24,932 - utils - INFO - Logging initialized. Log file: logs/bot_20250611_132224.log
+2025-06-11 13:22:24,936 - utils - INFO - Starting Pump.fun Token Scanner Bot...
+2025-06-11 13:22:24,939 - utils - INFO - Configuration: {'min_market_cap': 10000, 'max_market_cap': 1000000, 'min_age_seconds': 5, 'max_age_seconds': 604800, 'min_liquidity': 500, 'scan_interval_minutes': 2, 'max_tokens_per_scan': 50, 'duplicate_check_hours': 6, 'max_retries': 3, 'request_timeout': 30, 'rate_limit_delay': 1.0}
+2025-06-11 13:22:24,939 - utils - INFO - Running initial scan...
+2025-06-11 13:22:24,940 - utils - INFO - Starting token scan...
+2025-06-11 13:22:24,943 - token_scanner - INFO - Starting DexScreener profile scan...
+2025-06-11 13:22:24,946 - token_scanner - INFO - Scanning DexScreener token profiles...
+2025-06-11 13:22:24,946 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-11 13:22:25,126 - token_scanner - INFO - DexScreener API response type: <class 'list'>, length: 30
+2025-06-11 13:22:25,126 - token_scanner - INFO - First item structure: ['url', 'chainId', 'tokenAddress', 'icon', 'header', 'openGraph', 'links']
+2025-06-11 13:22:25,126 - token_scanner - INFO - Processing DexScreener response of type: <class 'list'>
+2025-06-11 13:22:25,126 - token_scanner - INFO - Processing 30 items from list response
+2025-06-11 13:22:25,340 - token_scanner - INFO - Found real market data for 0x1351a7E61b5Ce86d509Caf11054b2207B78d90B8
+2025-06-11 13:22:25,699 - token_scanner - INFO - Found real market data for 6vgC4TKV9VX8B9vn2kCG2MrUfv8urFJq9iv8sQzxpump
+2025-06-11 13:22:27,176 - token_scanner - INFO - Found real market data for 0x0946b36202Fcb67554328D6D1d7F95Fe7Fe7cf1D
+2025-06-11 13:22:27,506 - token_scanner - INFO - Found real market data for e5xCWvncmrAqAFUBxVFYHr9pG1T1CbT58KGLLeXpump
+2025-06-11 13:22:28,102 - token_scanner - INFO - Found real market data for cPE6h963S6n4rg9HDiZLGc4wwoTB65uhAR8Rf1rpump
+2025-06-11 13:22:28,263 - token_scanner - INFO - Found real market data for 3mUhrAY4Xm7z3VqAMBUhhhFWZvBduajk9wcwC9Hspump
+2025-06-11 13:22:28,623 - token_scanner - INFO - Found real market data for 0x51Dd7C0CeCb01b5D68dCA901dc0706e6D0AB76e1
+2025-06-11 13:22:28,769 - token_scanner - INFO - Found real market data for 9GM5dgAKiHwVzcdd8zGmBXwg6QCk1UGxRA8JArTdpump
+2025-06-11 13:22:29,241 - token_scanner - INFO - Found real market data for 5JRf4kdUt8rhES2XCBEygga4NDeRrv8bDUfzMBkgpump
+2025-06-11 13:22:29,757 - token_scanner - INFO - Found real market data for 2ZnUW9R4gxaq7S7Caf8sdZXwgZ2obsrCeJY3mwVFpump
+2025-06-11 13:22:30,415 - token_scanner - INFO - Found real market data for 0x7B414099B11F9558F2787076be232DfAaba7A127
+2025-06-11 13:22:30,569 - token_scanner - INFO - Found real market data for 0x4b76312f6db2A4978f050d21b59Fc2Cd6ef5fe32
+2025-06-11 13:22:31,031 - token_scanner - INFO - Found real market data for H2Mqhd3zjWpBDWEYJnBAbmkmftCwAu14WsUVXmeiVGAH
+2025-06-11 13:22:31,229 - token_scanner - INFO - Found real market data for 0x90e971F3a6Cc9F36b7296dD9C25CbBD955d3c304
+2025-06-11 13:22:32,739 - token_scanner - INFO - Found real market data for EgixdvE18LuQS5RxkgBwG7JRULv3Cb4k4g3cHu1Cpump
+2025-06-11 13:22:32,840 - token_scanner - INFO - DexScreener processing stats - Processed: 30, No address: 0, Age filtered: 1, Final tokens: 29
+2025-06-11 13:22:32,841 - token_scanner - INFO - Successfully fetched 29 tokens from DexScreener
+2025-06-11 13:22:32,841 - token_scanner - INFO - Successfully got 29 tokens from profiles endpoint
+2025-06-11 13:22:33,841 - token_scanner - INFO - Found 29 tokens from DexScreener profiles
+2025-06-11 13:22:33,841 - token_scanner - INFO - DexScreener found 29 tokens
+2025-06-11 13:22:33,842 - token_scanner - INFO - Starting Pump.fun scan...
+2025-06-11 13:22:33,842 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-11 13:22:33,842 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-11 13:22:34,227 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-11 13:22:35,228 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-11 13:22:35,322 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-11 13:22:36,323 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-11 13:22:36,414 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-11 13:22:37,414 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-11 13:22:37,504 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-11 13:22:38,505 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-11 13:22:38,505 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-11 13:22:38,505 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-11 13:22:38,506 - token_scanner - INFO - Scan summary - Total: 29, Unique: 29, Filtered: 9
+2025-06-11 13:22:38,506 - utils - INFO - Found 9 tokens to process
+2025-06-11 13:22:38,506 - utils - INFO - Sent 0 notifications
+2025-06-11 13:22:38,507 - utils - INFO - Starting scheduler thread...
+2025-06-11 13:22:38,507 - utils - INFO - Bot started. Scanning every 2 minutes...
+2025-06-11 13:24:26,060 - utils - INFO - Starting token scan...
+2025-06-11 13:24:26,309 - token_scanner - INFO - Starting DexScreener profile scan...
+2025-06-11 13:24:26,309 - token_scanner - INFO - Scanning DexScreener token profiles...
+2025-06-11 13:24:26,309 - token_scanner - INFO - Fetching DexScreener: https://api.dexscreener.com/token-profiles/latest/v1
+2025-06-11 13:24:27,274 - token_scanner - INFO - DexScreener API response type: <class 'list'>, length: 30
+2025-06-11 13:24:27,274 - token_scanner - INFO - First item structure: ['url', 'chainId', 'tokenAddress', 'icon', 'header', 'openGraph', 'links']
+2025-06-11 13:24:27,274 - token_scanner - INFO - Processing DexScreener response of type: <class 'list'>
+2025-06-11 13:24:27,274 - token_scanner - INFO - Processing 30 items from list response
+2025-06-11 13:24:27,547 - token_scanner - INFO - Found real market data for 0x1351a7E61b5Ce86d509Caf11054b2207B78d90B8
+2025-06-11 13:24:27,873 - token_scanner - INFO - Found real market data for 6vgC4TKV9VX8B9vn2kCG2MrUfv8urFJq9iv8sQzxpump
+2025-06-11 13:24:28,041 - token_scanner - INFO - Found real market data for 0x0946b36202Fcb67554328D6D1d7F95Fe7Fe7cf1D
+2025-06-11 13:24:28,362 - token_scanner - INFO - Found real market data for e5xCWvncmrAqAFUBxVFYHr9pG1T1CbT58KGLLeXpump
+2025-06-11 13:24:29,006 - token_scanner - INFO - Found real market data for cPE6h963S6n4rg9HDiZLGc4wwoTB65uhAR8Rf1rpump
+2025-06-11 13:24:29,162 - token_scanner - INFO - Found real market data for 3mUhrAY4Xm7z3VqAMBUhhhFWZvBduajk9wcwC9Hspump
+2025-06-11 13:24:29,476 - token_scanner - INFO - Found real market data for 0x51Dd7C0CeCb01b5D68dCA901dc0706e6D0AB76e1
+2025-06-11 13:24:29,626 - token_scanner - INFO - Found real market data for 9GM5dgAKiHwVzcdd8zGmBXwg6QCk1UGxRA8JArTdpump
+2025-06-11 13:24:30,098 - token_scanner - INFO - Found real market data for 5JRf4kdUt8rhES2XCBEygga4NDeRrv8bDUfzMBkgpump
+2025-06-11 13:24:30,579 - token_scanner - INFO - Found real market data for 2ZnUW9R4gxaq7S7Caf8sdZXwgZ2obsrCeJY3mwVFpump
+2025-06-11 13:24:31,029 - token_scanner - INFO - Found real market data for 0x7B414099B11F9558F2787076be232DfAaba7A127
+2025-06-11 13:24:31,187 - token_scanner - INFO - Found real market data for 0x4b76312f6db2A4978f050d21b59Fc2Cd6ef5fe32
+2025-06-11 13:24:31,630 - token_scanner - INFO - Found real market data for H2Mqhd3zjWpBDWEYJnBAbmkmftCwAu14WsUVXmeiVGAH
+2025-06-11 13:24:31,784 - token_scanner - INFO - Found real market data for 0x90e971F3a6Cc9F36b7296dD9C25CbBD955d3c304
+2025-06-11 13:24:31,977 - token_scanner - INFO - Found real market data for EgixdvE18LuQS5RxkgBwG7JRULv3Cb4k4g3cHu1Cpump
+2025-06-11 13:24:32,078 - token_scanner - INFO - DexScreener processing stats - Processed: 30, No address: 0, Age filtered: 1, Final tokens: 29
+2025-06-11 13:24:32,078 - token_scanner - INFO - Successfully fetched 29 tokens from DexScreener
+2025-06-11 13:24:32,079 - token_scanner - INFO - Successfully got 29 tokens from profiles endpoint
+2025-06-11 13:24:33,079 - token_scanner - INFO - Found 29 tokens from DexScreener profiles
+2025-06-11 13:24:33,079 - token_scanner - INFO - DexScreener found 29 tokens
+2025-06-11 13:24:33,079 - token_scanner - INFO - Starting Pump.fun scan...
+2025-06-11 13:24:33,080 - token_scanner - INFO - Scanning Pump.fun endpoints...
+2025-06-11 13:24:33,080 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC
+2025-06-11 13:24:33,209 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=created_timestamp&order=DESC, skipping remaining retries
+2025-06-11 13:24:34,209 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC
+2025-06-11 13:24:34,302 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=market_cap&order=DESC, skipping remaining retries
+2025-06-11 13:24:35,302 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC
+2025-06-11 13:24:35,408 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins?offset=0&limit=100&sort=last_trade_timestamp&order=DESC, skipping remaining retries
+2025-06-11 13:24:36,408 - token_scanner - INFO - Fetching Pump.fun (attempt 1): https://frontend-api.pump.fun/coins/king-of-the-hill
+2025-06-11 13:24:36,501 - token_scanner - WARNING - Pump.fun maintenance mode for https://frontend-api.pump.fun/coins/king-of-the-hill, skipping remaining retries
+2025-06-11 13:24:37,502 - token_scanner - WARNING - All Pump.fun endpoints appear to be in maintenance mode
+2025-06-11 13:24:37,502 - token_scanner - INFO - Found 0 tokens from Pump.fun
+2025-06-11 13:24:37,503 - token_scanner - INFO - Pump.fun found 0 tokens
+2025-06-11 13:24:37,503 - token_scanner - INFO - Scan summary - Total: 29, Unique: 29, Filtered: 9
+2025-06-11 13:24:37,503 - utils - INFO - Found 9 tokens to process
+2025-06-11 13:24:37,503 - utils - INFO - Sent 0 notifications
