@@ -77,10 +77,10 @@ def run_scheduler():
     while running:
         try:
             schedule.run_pending()
-            time.sleep(1)
+            time.sleep(2)
         except Exception as e:
             logger.error(f"Error in scheduler: {e}")
-            time.sleep(5)
+            time.sleep(10)
 
 def main():
     """Main function"""
